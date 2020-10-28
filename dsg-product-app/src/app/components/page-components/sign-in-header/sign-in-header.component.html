@@ -1,0 +1,26 @@
+
+<mat-card>
+
+  <div (click)="openDialog()" class="user-details-container">
+    <div fxLayout="row" fxLayoutAlign="end center" *ngIf="this.user !== null && this.user !== undefined">
+
+      <div class="image-container">
+        <img src="{{ user.photoUrl }}">
+      </div>
+  
+      <div class="user-details">
+        <h4>{{ user.name }}</h4>
+      </div>
+  
+    </div>
+
+    <div fxLayout="row" fxLayoutAlign="end center" *ngIf="this.user == null || this.user === undefined">
+      <button (click)="openDialog()" class="login-button"
+      color="#E94235" mat-raised-button>Login</button>
+    </div>
+  </div>
+
+
+</mat-card>
+
+

@@ -1,0 +1,20 @@
+<mat-card [routerLink]="['/book-detail', Book.id]" [ngStyle]="{'background-image': 'url(' + Book.image + ')'}" class="list-card" fxLayout="column"
+  fxLayoutAlign="start center">
+
+  <div class="card-content">
+    <mat-card-header>
+      <mat-card-title>{{Book.name}}</mat-card-title>
+      <mat-card-subtitle>{{Book.price}}</mat-card-subtitle>
+    </mat-card-header>
+
+    <!-- <img class="list-image" src="{{Book.image}}"> -->
+
+    <mat-card-content>
+      <p>
+        {{Book.shortDescription}}
+      </p>
+    </mat-card-content>
+  </div>
+
+
+</mat-card>

@@ -1,0 +1,20 @@
+<div fxLayout="column" fxLayoutAlign="space-between center" class="social-login-dialog">
+
+
+  <h1>Welcome to Inner-Sanctum</h1>
+
+
+  <!-- <mat-progress-spinner ></mat-progress-spinner> -->
+
+
+
+
+  <div fxLayout="row" class="buttons-container">
+    <button (click)="signInWithGoogle()" [ngClass]="{'google-gradient': this.loggingIn}" class="login-button"
+      color="#E94235" mat-raised-button>Login</button>
+    <button mat-raised-button (click)="signOut()">Sign out</button>
+  </div>
+
+
+
+</div>

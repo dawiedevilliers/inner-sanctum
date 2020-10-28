@@ -1,0 +1,109 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "name": "Meditations",
+        "author": "Marcus Aurelius",
+        "image": "assets/images/meditations.jpg",
+        "shortDescription": "The collection of Marcus Aurelius's meditations",
+        "longDescription": "This eBook edition of 'Meditations of Marcus Aurelius' has been formatted to the highest digital standards and adjusted for readability on all devices.'Meditations' is a series of personal writings by Marcus Aurelius, Roman Emperor from second century, recording his private notes to himself and ideas on Stoic philosophy. Marcus Aurelius wrote the Meditations as a source for his own guidance and self-improvement. The Meditations is divided into 12 books that chronicle different periods of Marcus' life. A central theme to Meditations is the importance of analyzing one's judgment of self and others and the development of a cosmic perspective. The style of writing that permeates the text is one that is simplified, straightforward, and perhaps reflecting Marcus' Stoic perspective on the text.",
+        "price": "R150",                
+        "rating": "4.5 out of 5"
+      
+
+      },
+      {
+        "id": 2,
+        "name": "Classic Tales of Horror",
+        "author": "Edgar Allan Poe",
+        "image": "assets/images/tales_of_horror.jpg",
+        "shortDescription": "Horror stories from Edgar Allan Poe",
+        "longDescription": "This collection of chilling horror stories from the maestro of suspense contains nearly 20 of Edgar Allan Poe's best known stories, including 'The Fall of the House of Usher', 'The Masque of the Red Death' and 'The Pit and the Pendulum'. For readers who have never come across the work of Poe before, it is a great introduction to some of his finest work.",
+        "price": "R250",                
+        "rating": "4 out of 5"
+      },
+      {
+        "id": 3,
+        "name": "The Ra Material: An Ancient Astronaut Speaks ",
+        "author": "Carla Rueckert",
+        "image": "assets/images/law_of_one.jpg",
+        "shortDescription": "Book of the law of one, insights from an Ancient Astronaut",
+        "longDescription": "Who are the ancient astronauts? Why did they first come to Earth? Why are they returning now? What part did they play in building the great monuments of antiquity? What part did they play in the formation of present and earlier civilizations? With what other beings do we share our universe? And where does the Earth fit into the cosmic scheme of things? Almost twenty years of experimental work with telepathy led to the 'breakthrough' contact recorded in this book. The Ra Material is an account not only of the events leading up to this contact, but of over 200 pages of verbatim transcripts of each and every conversation!",
+        "price": "R350",                
+        "rating": "4.7 out of 5"
+      },
+      {
+        "id": 4,
+        "name": "How To Win Friends and Influence People",
+        "author": "Dale Carnegie",
+        "image": "assets/images/influence_people.jpg",
+        "shortDescription": "Practical and proven advice on how to deal with people...",
+        "longDescription": "A timeless bestseller, Dale Carnegie’s How to Win Friends and Influence People has been an inspiration for many of those who are now famous and successful. Millions of people around the world have improved their lives based on the teachings of Dale Carnegie. This book is a phenomenal bestseller, having sold over 15 million copies worldwide. Dale Carnegie offers practical and proven advice on how to deal with people and understand them in order to get along well with them to make your life more rewarding. He illustrates his points with anecdotes of historical figures, leaders of the business world and everyday folks.",
+        "price": "R275",                
+        "rating": "4.7 out of 5"
+      },
+      {
+        "id": 5,
+        "name": "Beyond Training: Mastering Endurance, Health & Life",
+        "author": "Ben Greenfield",
+        "image": "assets/images/beyond_training.jpg",
+        "shortDescription": "Ben Greenfield, shows you how to overcome common health-related training issues while optimizing your workouts so you can look, feel, and perform like a champion.",
+        "longDescription": "America's top personal trainer, holistic nutritionist and health expert, Ben Greenfield, shows you how to overcome common health-related training issues while optimizing your workouts so you can look, feel, and perform like a champion.You have amazing physical goals. You want the best body you can get. You want to look, feel, and perform like a champion. So you beat yourself up with tough training, day after day, week after week, month after month. As a result, you’re held back by frustrating issues like brain fog, broken gut, hormone depletion, heart problems, and destroyed joints--limited to living at a fraction of your peak capacity and powerless to tap into your full potential and achieve your dreams.",
+        "price": "R375",                
+        "rating": "4.5 out of 5"
+      },
+      {
+        "id": 6,
+        "name": "Breath: The New Science of a Lost Art",
+        "author": "James Nestor",
+        "image": "assets/images/breath.jpg",
+        "shortDescription": "No matter what you eat, how much you exercise, how skinny or young or wise you are, none of it matters if you're not breathing properly...",
+        "longDescription": "There is nothing more essential to our health and well-being than breathing: take air in, let it out, repeat 25,000 times a day. Yet, as a species, humans have lost the ability to breathe correctly, with grave consequences. Journalist James Nestor travels the world to figure out what went wrong and how to fix it. The answers aren't found in pulmonology labs, as we might expect, but in the muddy digs of ancient burial sites, secret Soviet facilities, New Jersey choir schools, and the smoggy streets of Sao Paulo. Nestor tracks down men and women exploring the hidden science behind ancient breathing practices like Pranayama, Sudarshan Kriya, and Tummo and teams up with pulmonary tinkerers to scientifically test long-held beliefs about how we breathe. ",
+        "price": "R175",                
+        "rating": "4.8 out of 5"
+      },
+      {
+        "id": 7,
+        "name": "The Richest Man in Babylon",
+        "author": "George S. Clason",
+        "image": "assets/images/richest_man_in_babylon.jpg",
+        "shortDescription": "The secrets of making money told in the form of parables that even children can understand.",
+        "longDescription": "Our actions can be no wiser than our thoughts, and our thoughts can be no wiser than our understanding. Money is plentiful to those who understand the rules to its acquisition, rules which haven't changed in six thousand years since they were discovered in the first great nation, Babylon. Within the pages of this book, the secret of wealth will be spelled out for you in plain English and you will go from barely making ends meet, to always coming out ahead.",
+        "price": "R475",                
+        "rating": "4.7 out of 5"
+      },
+      {
+        "id": 8,
+        "name": "As a Man Thinketh",
+        "author": "James Allen",
+        "image": "assets/images/as_a_man_thinketh.jpg",
+        "shortDescription": "A book that will help you to help yourself",
+        "longDescription": "First published in 1903, James Allen’s As a Man Thinketh has never been out of print and continues to find new legions of fans in the digital age. Described by Allen as 'A book that will help you to help yourself,' it is in many ways the first self-help book. This new digital edition of As a Man Thinketh includes Allen’s essay The Way of Peace, an image gallery and links to a free audio recording of As a Man Thinketh.",
+        "price": "R333",                
+        "rating": "5 out of 5"
+      },
+      {
+        "id": 9,
+        "name": "The Hobbit",
+        "author": "J. R. R. Tolkien",
+        "image": "assets/images/hobbit.jpg",
+        "shortDescription": "This is the story of how a Baggins had an adventure, and found himself doing and saying things altogether unexpected…",
+        "longDescription": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely travelling further than the pantry of his hobbit-hole in Bag End. But his contentment is disturbed when the wizard, Gandalf, and a company of thirteen dwarves arrive on his doorstep one day, to whisk him away on a journey ‘there and back again’. They have a plot to raid the treasure hoard of Smaug the Magnificent, a large and very dangerous dragon…",
+        "price": "R444",                
+        "rating": "5 out of 5"
+      },
+      {
+        "id": 10,
+        "name": "The Way Of Men",
+        "author": "Jack Donovan",
+        "image": "assets/images/the_way_of_men.jpg",
+        "shortDescription": "When someone tells a man to be a man, they mean that there is a way to be a man. A man is not just a thing to be—it is also a way to be, a path to follow and a way to walk.",
+        "longDescription": "People are talking about “the end of men,” “the decline of males,” and the so-called “crisis of masculinity.” There are many diagnoses for the troubles men face today, but the chattering class is short on solutions. They refuse to deal honestly with the differences between men and women, and fail to entertain the possibility that their vision of the future offers little of value to average males.",
+        "price": "R555",                
+        "rating": "4.4 out of 5"
+      }
+
+
+  
+    ]
+}

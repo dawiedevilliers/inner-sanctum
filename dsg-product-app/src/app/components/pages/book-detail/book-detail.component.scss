@@ -1,0 +1,45 @@
+.book-detail-container {
+    height: 100%;
+    
+}
+
+.book-card-container {
+    max-width: 600px;
+    border: 3px solid #e91b237d;
+    animation: bookSelectedAnimation 0.5s ease-in-out;
+}
+
+.detail-image {
+    width: 200px;
+}
+
+.mat-card-header-text{
+    margin: 0;
+}
+
+.price {
+    color: #b29555;
+} 
+
+.mat-card-subtitle {
+    color: black;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.mat-card-content {
+    margin: 20px; 
+}
+
+@keyframes bookSelectedAnimation {
+    0% {
+        transform: scale(0.5);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

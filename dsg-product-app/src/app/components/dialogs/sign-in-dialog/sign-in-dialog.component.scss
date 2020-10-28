@@ -1,0 +1,56 @@
+:host {
+
+    height: 100%;
+
+}
+
+.social-login-dialog {
+    height: 100%;
+    min-height: 300px;
+
+    h1 {
+        font-family: Roboto, "Helvetica Neue", sans-serif !important;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+    }
+
+}
+
+.buttons-container {
+
+    .login-button {
+
+    }
+
+    button {
+        min-width: 100px;
+        margin: 0 10px;
+        font-size: 15px;
+    }
+}
+
+.google-gradient {
+    background: linear-gradient(271deg, #e94235, #fabb05, #34a853, #4285f4);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}

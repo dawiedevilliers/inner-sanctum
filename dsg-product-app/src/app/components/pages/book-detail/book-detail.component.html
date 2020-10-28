@@ -1,0 +1,30 @@
+
+
+<div class="book-detail-container" fxLayout="row" fxLayoutAlign="center center">
+
+  <mat-card class="book-card-container">
+    <mat-card-header>
+        <mat-card-title>{{selectedBook.name}} <span class="price">{{selectedBook.price}}</span></mat-card-title>
+        <mat-card-subtitle>{{selectedBook.author}} </mat-card-subtitle>
+      </mat-card-header>
+
+      <div fxLayout="row" fxLayoutAlign="center center">
+        <img class="detail-image" src="{{selectedBook.image}}">
+      </div>
+
+      <mat-card-content>
+        <p>
+       {{selectedBook.longDescription}}
+        </p>
+      </mat-card-content>
+
+      <div fxLayout="row" fxLayoutAlign="end center" >
+        <button *ngIf="canSendEmail" (click)="sendEmail()" mat-raised-button>Email</button>
+      </div>
+ 
+
+</mat-card>
+
+</div>
+
+
