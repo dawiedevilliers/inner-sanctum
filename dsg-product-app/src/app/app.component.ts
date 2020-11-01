@@ -27,11 +27,7 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
     private router: Router,
     private authService: SocialAuthService) {
 
-    this.router.events
-      .pipe(filter(event => event instanceof NavigationEnd))
-      .subscribe((route: NavigationEnd) => {
-        this.url = route['url'];
-      });
+
 
     this.authSubscription =this.authService.authState.subscribe((user) => {
       this.user = user;
@@ -41,21 +37,25 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
  
   ngAfterViewInit(): void {
 
-    debugger;
+    this.router.events
+    .pipe(filter(event => event instanceof NavigationEnd))
+    .subscribe((route: NavigationEnd) => {
+      this.url = route['url'];
+      // if ((this.url === '/' || this.url === '') && (this.user === null || this.user === undefined)) {
+      //   const innerSanctumDialog = this.dialogRef.open(SignInDialogComponent, {
+      //     height: 'auto',
+      //     minHeight: '300px',
+      //     width: '500px',
+          
+      //   });
+      //   innerSanctumDialog.disableClose = true;
+      //   innerSanctumDialog.afterClosed().subscribe(result => {
+      //     this.router.navigateByUrl('books-list');
+      //   });
+      // }
+    });
 
-    if ((this.url === '/' || this.url === '') && (this.user === null || this.user === undefined)) {
-      const innerSanctumDialog = this.dialogRef.open(SignInDialogComponent, {
-        height: 'auto',
-        minHeight: '300px',
-        width: '500px',
-        // panelClass: 'poc-benefits-dialog'
-      });
-      innerSanctumDialog.disableClose = true;
-      innerSanctumDialog.afterClosed().subscribe(result => {
-        this.user = result;
-        this.router.navigateByUrl('books-list');
-      });
-    }
+    
 
 
   }

@@ -7,6 +7,21 @@
     max-width: 600px;
     border: 3px solid #e91b237d;
     animation: bookSelectedAnimation 0.5s ease-in-out;
+    position: relative;
+
+    .close-button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 10px;
+        width: 40px;
+        display: block;
+        font-weight: 600;
+        text-align: center;
+    }
+
 }
 
 .detail-image {

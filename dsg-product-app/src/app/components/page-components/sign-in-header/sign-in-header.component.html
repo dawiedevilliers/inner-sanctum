@@ -1,7 +1,7 @@
 
 <mat-card>
 
-  <div (click)="openDialog()" class="user-details-container">
+  <div class="user-details-container">
     <div fxLayout="row" fxLayoutAlign="end center" *ngIf="this.user !== null && this.user !== undefined">
 
       <div class="image-container">
@@ -11,12 +11,18 @@
       <div class="user-details">
         <h4>{{ user.name }}</h4>
       </div>
+
+      <button (click)="signOut()" class="logout-button"
+      color="#E94235" mat-raised-button>Log out</button>
   
     </div>
 
     <div fxLayout="row" fxLayoutAlign="end center" *ngIf="this.user == null || this.user === undefined">
-      <button (click)="openDialog()" class="login-button"
-      color="#E94235" mat-raised-button>Login</button>
+      <!-- <button (click)="openDialog()" class="login-button"
+      color="#E94235" mat-raised-button>Login</button> -->
+
+      <button (click)="signInWithGoogle()" _ngcontent-lil-c2="" class="btn btn-social-icon btn-google mx-1"><span _ngcontent-lil-c2="" class="fa fa-google"></span></button>
+
     </div>
   </div>
 

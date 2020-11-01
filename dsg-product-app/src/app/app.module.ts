@@ -63,16 +63,16 @@ import { ListCardComponent } from './components/page-components/list-card/list-c
               '395458440323-ab224554gg87dl7kk2ffqe5su17s8jae.apps.googleusercontent.com'
             ),
           },
-          {
-            id: FacebookLoginProvider.PROVIDER_ID,
-            provider: new FacebookLoginProvider('clientId'),
-          },
-          {
-            id: AmazonLoginProvider.PROVIDER_ID,
-            provider: new AmazonLoginProvider(
-              'clientId'
-            ),
-          },
+          // {
+          //   id: FacebookLoginProvider.PROVIDER_ID,
+          //   provider: new FacebookLoginProvider('clientId'),
+          // },
+          // {
+          //   id: AmazonLoginProvider.PROVIDER_ID,
+          //   provider: new AmazonLoginProvider(
+          //     'clientId'
+          //   ),
+          // },
         ],
       } as SocialAuthServiceConfig,
     }

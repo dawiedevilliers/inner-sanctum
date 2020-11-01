@@ -3,6 +3,9 @@
 <div class="book-detail-container" fxLayout="row" fxLayoutAlign="center center">
 
   <mat-card class="book-card-container">
+
+    <h3 (click)="close()" class="close-button">X</h3>
+
     <mat-card-header>
         <mat-card-title>{{selectedBook.name}} <span class="price">{{selectedBook.price}}</span></mat-card-title>
         <mat-card-subtitle>{{selectedBook.author}} </mat-card-subtitle>

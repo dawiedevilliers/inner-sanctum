@@ -3,7 +3,7 @@
   img {
     border-radius: 60px;
     height: 40px;
-    margin: 0 20px;
+    margin: 0 10px;
     animation: scaleIn 0.5s;
   }
 
@@ -15,15 +15,34 @@
   cursor: pointer;
 
   .user-details {
-
+    margin: 0 10px;
     h4 {
       font-size: 18px;
       color: white;
       margin: 0 20px;
     }
 
+    opacity: 0;
+    animation: scaleIn 0.5s 0.5s forwards;
+
   }
+
+  .logout-button {
+    background-color: #4285f4;
+    color: white;
+    width: 70px;
+    line-height: 30px;
+    white-space: normal;
+    padding: 0;
+    border-radius: 20px;
+    opacity: 0;
+
+    animation: scaleIn 0.5s 1s forwards;
+  }
+  
 }
+
+
 
 
 
@@ -47,3 +66,11 @@
 
   }
 }
+
+.btn-social-icon {
+  background-color: #4285f4;
+  color: white;
+  opacity: 0;
+  animation: scaleIn 3s forwards;
+}
+

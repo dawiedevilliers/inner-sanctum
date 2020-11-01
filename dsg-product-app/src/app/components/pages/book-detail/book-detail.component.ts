@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { AfterViewInit, Component, Input, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { SocialAuthService, SocialUser } from 'angularx-social-login';
 import { Subscription } from 'rxjs';
 import { Book } from 'src/app/models/book';
@@ -24,7 +24,8 @@ export class BookDetailComponent implements OnInit, AfterViewInit, OnDestroy {
     private dataService: DataService,
     private authService: SocialAuthService,
     private route: ActivatedRoute,
-    private http: HttpClient) { }
+    private http: HttpClient,
+    private router: Router,) { }
 
 
 
@@ -94,6 +95,10 @@ export class BookDetailComponent implements OnInit, AfterViewInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.authSubscription.unsubscribe();
+  }
+
+  close() {
+    this.router.navigateByUrl('books-list');
   }
 
 }

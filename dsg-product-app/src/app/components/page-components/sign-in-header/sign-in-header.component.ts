@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { SocialUser } from 'angularx-social-login';
+import { Router } from '@angular/router';
+import { FacebookLoginProvider, GoogleLoginProvider, SocialAuthService, SocialUser } from 'angularx-social-login';
 import { SignInDialogComponent } from '../../dialogs/sign-in-dialog/sign-in-dialog.component';
 
 @Component({
@@ -12,7 +13,9 @@ export class SignInHeaderComponent implements OnInit {
 
   @Input()  user: SocialUser;
 
-  constructor(public dialogRef: MatDialog) { }
+  constructor(public dialogRef: MatDialog,
+              private authService: SocialAuthService,
+              private router: Router,) { }
 
   ngOnInit(): void {
   }
@@ -29,6 +32,23 @@ export class SignInHeaderComponent implements OnInit {
       this.user = result;
       
     });
+  }
+
+  signInWithGoogle(): void {
+    // this.dialogRef.close();
+    this.authService.signIn(GoogleLoginProvider.PROVIDER_ID);
+
+
+  }
+
+  signInWithFB(): void {
+    this.authService.signIn(FacebookLoginProvider.PROVIDER_ID);
+  }
+
+  signOut(): void {
+    this.authService.signOut();
+    this.router.navigateByUrl('books-list');
+
   }
   
 

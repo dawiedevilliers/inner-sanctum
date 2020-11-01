@@ -6,7 +6,12 @@ import { HomeComponent } from './components/pages/home/home.component';
 
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  {
+		path: '',
+		redirectTo: '/books-list',
+		pathMatch: 'full'
+	},
+  // { path: 'home', component: HomeComponent },
   { path: 'books-list', component: BooksListComponent },
   { path: 'book-detail/:id', component: BookDetailComponent }
 
