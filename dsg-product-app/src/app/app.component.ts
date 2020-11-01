@@ -36,27 +36,23 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
   }
  
   ngAfterViewInit(): void {
-
-    this.router.events
-    .pipe(filter(event => event instanceof NavigationEnd))
-    .subscribe((route: NavigationEnd) => {
-      this.url = route['url'];
-      // if ((this.url === '/' || this.url === '') && (this.user === null || this.user === undefined)) {
-      //   const innerSanctumDialog = this.dialogRef.open(SignInDialogComponent, {
-      //     height: 'auto',
-      //     minHeight: '300px',
-      //     width: '500px',
+    // this.router.events
+    // .pipe(filter(event => event instanceof NavigationEnd))
+    // .subscribe((route: NavigationEnd) => {
+    //   this.url = route['url'];
+    //   if ((this.url === '/' || this.url === '') && (this.user === null || this.user === undefined)) {
+    //     const innerSanctumDialog = this.dialogRef.open(SignInDialogComponent, {
+    //       height: 'auto',
+    //       minHeight: '300px',
+    //       width: '500px',
           
-      //   });
-      //   innerSanctumDialog.disableClose = true;
-      //   innerSanctumDialog.afterClosed().subscribe(result => {
-      //     this.router.navigateByUrl('books-list');
-      //   });
-      // }
-    });
-
-    
-
+    //     });
+    //     innerSanctumDialog.disableClose = true;
+    //     innerSanctumDialog.afterClosed().subscribe(result => {
+    //       this.router.navigateByUrl('books-list');
+    //     });
+    //   }
+    // });
 
   }
   ngOnInit(): void {

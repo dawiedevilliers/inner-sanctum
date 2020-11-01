@@ -17,7 +17,6 @@ import {
 import { BooksListComponent } from './components/pages/books-list/books-list.component';
 import { BookDetailComponent } from './components/pages/book-detail/book-detail.component';
 import { BookItemComponent } from './components/page-components/book-item/book-item.component';
-import { HomeComponent } from './components/pages/home/home.component';
 import { MaterialComponentsModule } from './modules/material-components/material-components.module';
 import { SignInHeaderComponent } from './components/page-components/sign-in-header/sign-in-header.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -29,7 +28,6 @@ import { ListCardComponent } from './components/page-components/list-card/list-c
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     BooksListComponent,
     BookDetailComponent,
     BookDetailComponent,
